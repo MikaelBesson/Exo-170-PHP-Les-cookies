@@ -18,7 +18,7 @@ foreach ($_COOKIE as $cookieName => $cookieValue){
  */
 // TODO Votre code ici.
 
-setcookie('username', "je s'apl groot",time() + 180000, '/', 'localhost', true, true);
+setcookie('username', "je s'apl groot", time() + 180000, 'Exo-170-PHP-Les-cookies', 'localhost', true, true);
 foreach ($_COOKIE as $cookieName => $cookieValue){
     echo "$cookieName => $cookieValue<br>";
 }
